@@ -1,0 +1,448 @@
+CRITICAL - 2024-12-16 07:58:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-16 07:59:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-16 08:02:29 --> ErrorException: include(templates/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/layouts/main.php on line 1.
+ 1 APPPATH/Views/layouts/main.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/layouts/main.php(1): include()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/codeigniter2/app/Views/layouts/main.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(9): view()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-16 08:03:11 --> ErrorException: include(templates/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/layouts/main.php on line 1.
+ 1 APPPATH/Views/layouts/main.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/layouts/main.php(1): include()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/codeigniter2/app/Views/layouts/main.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(9): view()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-16 08:03:13 --> ErrorException: include(templates/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/layouts/main.php on line 1.
+ 1 APPPATH/Views/layouts/main.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/layouts/main.php(1): include()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/codeigniter2/app/Views/layouts/main.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(9): view()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-16 08:03:44 --> ErrorException: include(templates/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/layouts/main.php on line 1.
+ 1 APPPATH/Views/layouts/main.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/layouts/main.php(1): include()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/codeigniter2/app/Views/layouts/main.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(9): view()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-16 08:04:41 --> ErrorException: include(templates/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/layouts/main.php on line 1.
+ 1 APPPATH/Views/layouts/main.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/layouts/main.php(1): include()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/codeigniter2/app/Views/layouts/main.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(9): view()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-16 08:05:21 --> ErrorException: include(templates/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/layouts/main.php on line 1.
+ 1 APPPATH/Views/layouts/main.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/layouts/main.php(1): include()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/codeigniter2/app/Views/layouts/main.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(12): view()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-16 08:05:22 --> ErrorException: include(templates/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/layouts/main.php on line 1.
+ 1 APPPATH/Views/layouts/main.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/layouts/main.php(1): include()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/codeigniter2/app/Views/layouts/main.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(12): view()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-16 08:05:22 --> ErrorException: include(templates/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/layouts/main.php on line 1.
+ 1 APPPATH/Views/layouts/main.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/layouts/main.php(1): include()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/codeigniter2/app/Views/layouts/main.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(12): view()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-16 08:05:23 --> ErrorException: include(templates/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/layouts/main.php on line 1.
+ 1 APPPATH/Views/layouts/main.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/layouts/main.php(1): include()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/codeigniter2/app/Views/layouts/main.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(12): view()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-16 08:05:24 --> ErrorException: include(templates/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/layouts/main.php on line 1.
+ 1 APPPATH/Views/layouts/main.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/layouts/main.php(1): include()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/codeigniter2/app/Views/layouts/main.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(12): view()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-16 08:05:24 --> ErrorException: include(templates/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/layouts/main.php on line 1.
+ 1 APPPATH/Views/layouts/main.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/layouts/main.php(1): include()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/codeigniter2/app/Views/layouts/main.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(12): view()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-16 08:06:29 --> ErrorException: include(templates/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/layouts/main.php on line 1.
+ 1 APPPATH/Views/layouts/main.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/layouts/main.php(1): include()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/codeigniter2/app/Views/layouts/main.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(12): view()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-16 08:07:37 --> ErrorException: include(templates/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/layouts/main.php on line 1.
+ 1 APPPATH/Views/layouts/main.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/layouts/main.php(1): include()
+ 3 SYSTEMPATH/View/View.php(228): include('/var/www/html/codeigniter2/app/Views/layouts/main.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(12): view()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-16 08:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-16 08:18:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ci_user'@'localhost' to database 'seonggeun' in /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/BaseModel.php(805): CodeIgniter\Model->doInsert()
+#6 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Model.php(749): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/codeigniter2/app/Controllers/Auth/Auth.php(35): CodeIgniter\Model->insert()
+#8 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(943): App\Controllers\Auth\Auth->processSignup()
+#9 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/codeigniter2/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database 'seonggeun' in /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#4 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/BaseModel.php(805): CodeIgniter\Model->doInsert()
+#5 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Model.php(749): CodeIgniter\BaseModel->insert()
+#6 /var/www/html/codeigniter2/app/Controllers/Auth/Auth.php(35): CodeIgniter\Model->insert()
+#7 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(943): App\Controllers\Auth\Auth->processSignup()
+#8 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/codeigniter2/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-12-16 08:18:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'seonggeun'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH/BaseModel.php(805): CodeIgniter\Model->doInsert()
+ 5 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 6 APPPATH/Controllers/Auth/Auth.php(35): CodeIgniter\Model->insert()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Auth\Auth->processSignup()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-16 08:20:14 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'seonggeun_user'@'localhost' (using password: YES) in /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/BaseModel.php(805): CodeIgniter\Model->doInsert()
+#6 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Model.php(749): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/codeigniter2/app/Controllers/Auth/Auth.php(35): CodeIgniter\Model->insert()
+#8 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(943): App\Controllers\Auth\Auth->processSignup()
+#9 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/codeigniter2/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#4 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/BaseModel.php(805): CodeIgniter\Model->doInsert()
+#5 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Model.php(749): CodeIgniter\BaseModel->insert()
+#6 /var/www/html/codeigniter2/app/Controllers/Auth/Auth.php(35): CodeIgniter\Model->insert()
+#7 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(943): App\Controllers\Auth\Auth->processSignup()
+#8 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/codeigniter2/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-12-16 08:20:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH/BaseModel.php(805): CodeIgniter\Model->doInsert()
+ 5 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 6 APPPATH/Controllers/Auth/Auth.php(35): CodeIgniter\Model->insert()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Auth\Auth->processSignup()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-16 08:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-16 08:20:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'seonggeun_user'@'localhost' (using password: YES) in /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/BaseModel.php(805): CodeIgniter\Model->doInsert()
+#6 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Model.php(749): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/codeigniter2/app/Controllers/Auth/Auth.php(35): CodeIgniter\Model->insert()
+#8 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(943): App\Controllers\Auth\Auth->processSignup()
+#9 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/codeigniter2/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#4 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/BaseModel.php(805): CodeIgniter\Model->doInsert()
+#5 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/Model.php(749): CodeIgniter\BaseModel->insert()
+#6 /var/www/html/codeigniter2/app/Controllers/Auth/Auth.php(35): CodeIgniter\Model->insert()
+#7 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(943): App\Controllers\Auth\Auth->processSignup()
+#8 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/codeigniter2/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/codeigniter2/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-12-16 08:20:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH/BaseModel.php(805): CodeIgniter\Model->doInsert()
+ 5 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 6 APPPATH/Controllers/Auth/Auth.php(35): CodeIgniter\Model->insert()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Auth\Auth->processSignup()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-16 08:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 08:36:05 --> ErrorException: Undefined variable $user
+in APPPATH/Controllers/Auth/Auth.php on line 67.
+ 1 APPPATH/Controllers/Auth/Auth.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Auth\Auth->processLogin()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-16 08:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 08:46:06 --> Error: Class "App\Controllers\Admin\ProductModel" not found
+in APPPATH/Controllers/Admin/Dashboard.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Admin\Dashboard->index()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-16 08:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 08:47:24 --> Error: Class "App\Models\ProductModel" not found
+in APPPATH/Controllers/Admin/Dashboard.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Admin\Dashboard->index()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-16 08:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 08:47:46 --> Error: Class "App\Models\ProductModel" not found
+in APPPATH/Controllers/Admin/Dashboard.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Admin\Dashboard->index()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-16 08:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 08:47:47 --> Error: Class "App\Models\ProductModel" not found
+in APPPATH/Controllers/Admin/Dashboard.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Admin\Dashboard->index()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-16 08:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 08:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
